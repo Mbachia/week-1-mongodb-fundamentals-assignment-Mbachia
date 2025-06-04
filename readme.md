@@ -26,9 +26,9 @@ This project demonstrates core MongoDB skills by building and querying a sample 
 ### How to Run
 Step 1: Insert Sample Data
 Run this file using the MongoDB shell or MongoDB Compass:
-
-'''bash
-   mongosh < insert_books.js
+```bash
+mongosh < insert_books.js
+```
    
 This will populate the book collection with sample data.
 
