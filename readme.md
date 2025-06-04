@@ -21,4 +21,21 @@ This project demonstrates core MongoDB skills by building and querying a sample 
 1. Install MongoDB Community Edition: https://www.mongodb.com/try/download/community
 2. Start the MongoDB server:
    ```bash
-   mongod
+   mongosh
+
+### How to Run
+Step 1: Insert Sample Data
+Run this file using the MongoDB shell or MongoDB Compass:
+
+bash
+Copy
+Edit
+mongosh < insert_books.js
+This will populate the books collection with sample data.
+
+Step 2: Run Queries
+Open mongosh or MongoDB Compass.
+
+Select the plp_bookstore database.
+
+Copy and paste queries from queries.js to test each task (CRUD, advanced queries, aggregation, indexing).
